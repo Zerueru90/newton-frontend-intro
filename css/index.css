@@ -1,13 +1,12 @@
 #bodyID{
-    
     width: 65%;
     margin: auto;
 }
 
 .topsection-grid{
     display: grid;
-    grid-template-columns: 200px 200px 200px 200px;
-    grid-template-rows:200px 200px;
+    grid-template-columns: 309px 309px 309px 309px;
+    grid-template-rows:350px 350px;
     background-color: #fff;
     color: #444;
 }
@@ -51,6 +50,10 @@
     grid-row: 2;
 }
 
+.navsection{
+    text-align: center;
+}
+
 .test{
     display: inline;
     padding-left:inherit;
@@ -58,7 +61,7 @@
 
 .midsection-grid{
     display: grid;
-    grid-template-columns: 400px 400px;
+    grid-template-columns: 618px 618px;
     grid-template-rows:600px 600px;
     background-color: #fff;
     color: #444;
@@ -92,8 +95,8 @@
 
 .lowermidsection-grid{
     display: grid;
-    grid-template-columns: 267px 267px 267px;
-    grid-template-rows:200px 200px;
+    grid-template-columns: 412px 412px 412px;
+    grid-template-rows:300px 300px;
     background-color: #fff;
     color: #444;
 }
@@ -154,3 +157,8 @@
     line-height: 48px;
     width: 48px;
   }
+
+footer{
+    background-color: rgba(51, 51, 51, 0.782);
+    padding: 10%;
+}
